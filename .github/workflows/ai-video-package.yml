@@ -21,6 +21,8 @@ jobs:
       - name: Prepare source, icon, cover and Vietnamese catalog (do not mutate original ZIP)
         run: |
           brew install cairo
+          export DYLD_LIBRARY_PATH="$(brew --prefix cairo)/lib:${DYLD_LIBRARY_PATH:-}"
+          export DYLD_FALLBACK_LIBRARY_PATH="$(brew --prefix cairo)/lib:${DYLD_FALLBACK_LIBRARY_PATH:-}"
           python -m pip install --disable-pip-version-check Pillow==11.3.0 cairosvg==2.8.2
           python tools/rebrand_ai_video.py
       - name: Verify bundle metadata and source integrity
