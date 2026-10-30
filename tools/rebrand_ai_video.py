@@ -185,6 +185,33 @@ def modify_i18n():
                 "language: crate::i18n::Language::Vi,")
     keys=SRC/"crates/ui-egui/src/i18n"
     total,covered=make_translation(keys/"es.tsv",keys/"vi.tsv")
+    translated=ROOT/"translations/vi.tsv"
+    if translated.exists():
+        import collections
+        source_keys=[]
+        for line in (keys/"es.tsv").read_text("utf-8").splitlines():
+            if line.startswith("#") or not line.strip():continue
+            cols=line.split("\t")
+            if len(cols)==3:source_keys.append((cols[0],cols[1]))
+        lines=translated.read_text("utf-8").splitlines()
+        pairs={}
+        for line in lines:
+            if line.startswith("#") or not line.strip():continue
+            cols=line.split("\t")
+            if len(cols)!=3:raise ValueError("Invalid Vietnamese catalog row")
+            k=(cols[0],cols[1])
+            if k in pairs:raise ValueError("Duplicated Vietnamese catalog entry")
+            pairs[k]=cols[2]
+        if not set(pairs).issubset(set(source_keys)):raise ValueError("Unknown catalog translation key")
+        if len(pairs)<covered:raise ValueError("Generated translation has fewer entries than curated base")
+        for ctx,en in source_keys:
+            if (ctx,en) not in pairs:continue
+            tr=pairs[(ctx,en)]
+            if sorted(re.findall(r"\{([^{}]+)\}",en))!=sorted(re.findall(r"\{([^{}]+)\}",tr)):
+                raise ValueError("Placeholder mismatch in translation")
+            if en.endswith("…")!=tr.endswith("…"):raise ValueError("Ellipsis mismatch in translation")
+        shutil.copy2(translated,keys/"vi.tsv")
+        covered=len(pairs)
     return total,covered
 
 def svg_assets():
