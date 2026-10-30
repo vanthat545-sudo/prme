@@ -2,7 +2,7 @@ name: AI Video Vietnamese localization audit
 on:
   push:
     branches: [feat/ai-video-vietnamese]
-    paths: [translations/**]
+    paths: [translations/**, tools/audit_vi_catalog.py, .github/workflows/ai-video-l10n-audit.yml]
   workflow_dispatch:
 permissions:
   contents: read
