@@ -6,6 +6,7 @@ on:
       - .github/workflows/ai-video-package.yml
       - tools/rebrand_ai_video.py
       - branding/**
+      - translations/**
   workflow_dispatch:
 permissions:
   contents: read
