@@ -29,6 +29,10 @@ jobs:
         run: |
           Expand-Archive -LiteralPath 'source-zip/AI-Video-v0.13.0-Vietnamese-Source.zip' -DestinationPath 'work' -Force
           if (!(Test-Path 'work/filmcraft-main/Cargo.toml')) { throw 'Cargo.toml missing' }
+          if (Test-Path 'translations/vi.tsv') {
+            Copy-Item -LiteralPath 'translations/vi.tsv' -Destination 'work/filmcraft-main/crates/ui-egui/src/i18n/vi.tsv' -Force
+            Write-Host 'Using latest Vietnamese catalog from feature branch'
+          }
           Get-ChildItem work/filmcraft-main/apps/filmcraft | Select-Object Name
       - uses: dtolnay/rust-toolchain@master
         with:
