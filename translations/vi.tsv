@@ -3,19 +3,19 @@
 # Human review is required before calling the localization production-ready.
 # Product names and technical formats may remain untranslated.
 	About FilmCraft	Giới thiệu AI Video
-	Add Audio Submix Track	Không riêng
+	Add Audio Submix Track	Thêm rãnh trộn âm thanh phụ
 	Add Caption at Playhead	Thêm, cũng có thể phát
 	Add Chapter Marker…	Thêm tham số…
-	Add Edit	Thêm chỉnh sửa
-	Add Edit to All Tracks	& kế
+	Add Edit	Thêm điểm cắt
+	Add Edit to All Tracks	Thêm điểm cắt trên tất cả các rãnh
 	Add Flash Cue Marker…	Thêm tham số mới…
 	Add Frame Hold	Thêm
 	Add Guide…	Thêm…
 	Add Marker	Thêm điểm đánh dấu
-	Add New Caption Track…	Thêm đường dẫn tới đường dẫn mới…
-	Add Range Marker	Thêm thêm bán bán bán bán bán bán bán bán bán bán thêm
-	Add Range Marker to In and Out	Thêm tham & phạm & & & & ra
-	Add Tracks…	Thêm mục…
+	Add New Caption Track…	Thêm rãnh phụ đề mới…
+	Add Range Marker	Thêm điểm đánh dấu đoạn
+	Add Range Marker to In and Out	Thêm điểm đánh dấu từ điểm vào đến điểm ra
+	Add Tracks…	Thêm rãnh…
 	Adjustment Layer…	& Mới…
 	Align to Selection	lan in in
 	Align to Video Frame	lan ra có thể
@@ -24,25 +24,25 @@
 	Alpha	dãy
 	Appearance	Giao diện
 	Appearance…	Tạm…
-	Apply Audio Transition	Không cuộn cuộn cuộn cuộn cuộn cuộn cuộn thu thu
+	Apply Audio Transition	Áp dụng chuyển tiếp âm thanh
 	Apply Default Transitions to Selection	Không riêng riêng
-	Apply Video Transition	Không cuộn cuộn cuộn cuộn cuộn cuộn cuộn cuộn cuộn cuộn băng
+	Apply Video Transition	Áp dụng chuyển cảnh video
 	Arrange	Chính:
 	ArtCraft Website	Các tơ trẻ nhỏ
 	Assembly	Không chứa
 	Attach Proxies…	NHỮNG NHỮNG NGƯỜI…
-	Audio Channels…	Kênh…
-	Audio Clip Mixer	Bình
-	Audio Gain…	& Thêm…
-	Audio Hardware…	Đang giữ…
-	Audio In	In
-	Audio Meters	Không sao tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần
-	Audio Options	Đồng phát
-	Audio Out	Không có
-	Audio Track Mixer	Truyền ít ít
-	Audio Waveform	Không thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn
+	Audio Channels…	Kênh âm thanh…
+	Audio Clip Mixer	Bộ trộn âm thanh đoạn
+	Audio Gain…	Điều chỉnh mức âm thanh…
+	Audio Hardware…	Thiết bị âm thanh…
+	Audio In	Đầu vào âm thanh
+	Audio Meters	Đồng hồ mức âm thanh
+	Audio Options	Tùy chọn âm thanh
+	Audio Out	Đầu ra âm thanh
+	Audio Track Mixer	Bộ trộn âm thanh theo rãnh
+	Audio Waveform	Dạng sóng âm thanh
 	Auto Save…	Tự động…
-	Automate to Sequence…	Đội tự đội tội tội phạm…
+	Automate to Sequence…	Tự động đưa vào chuỗi dựng…
 	Bars and Tone…	Thanh và…
 	Bin	Thêm
 	Bin From Selection	Làm & & ngắn quá & ngắn
@@ -78,15 +78,15 @@
 	Composite Video	Bộ hợp Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội Nội
 	Consolidate Duplicates	Không kể tích tháng tháng/ không/ đêm
 	Copy	Sao chép
-	Copy Paste Includes Sequence Markers	Không sao gỡ/ bội
+	Copy Paste Includes Sequence Markers	Sao chép và dán kèm điểm đánh dấu chuỗi
 	Create Captions from Transcript…	Tạo layer mới…
-	Create Multi-Camera Source Sequence…	Tạo ra nguồn từ nhiều nguồn…
+	Create Multi-Camera Source Sequence…	Tạo chuỗi nguồn nhiều camera…
 	Create Proxies…	Nguyên tắc cơ bản…
 	Cut	Cắt
 	Darkest	& tối tối tối làm tối trắng tối làm tối trắng tối tối làm tối trắng tối tối tối tối tối làm tối trắng tối tối tối tối tối tối tối tối tối tối tối làm tối làm tối tối tối làm tối tối tối trắng tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối làm làm tối tối tối tối làm tối tối tối làm tối tối tối tối tối tối làm tối tối tối tối làm tối tối tối tối tối tối tối làm tối tối tối tối tối tối tối làm tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối tối
-	Delete Render Files	Thật
-	Delete Render Files In to Out	Không riêng
-	Delete Tracks…	Các đường dẫn…
+	Delete Render Files	Xóa tệp kết xuất
+	Delete Render Files In to Out	Xóa tệp kết xuất từ điểm vào đến điểm ra
+	Delete Tracks…	Xóa rãnh…
 	Delete Transcript	Xóa bản chép lời
 	Demo Footage	Chỉ/ lên/ lên/ lên/ lên mét
 	Demo Project	nuôi nuôi
@@ -99,11 +99,11 @@
 	Distribute Space Vertically	Không riêng
 	Distribute Vertically	Chiều dọc
 	Duplicate	Nhân bản
-	Dynamic Audio Waveforms	Không thay thay thay thay tuần tuần đơn đơn đơn tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần không không không không không không không không không chung tuần tuần tuần không không không không không không không không không không không Không tuần thôi không không không không Không tuần thôi tuần thôi tuần tuần tuần không không không không không không tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần không không không không không không không không không không không không không tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần không không không không không tuần tuần thôi tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần không không không tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần không không không không không tuần tuần tuần không không không không không tuần tuần tuần tuần tuần tuần tuần tuần không không
+	Dynamic Audio Waveforms	Dạng sóng âm thanh động
 	Edit	Chỉnh sửa
-	Edit Offline…	Hiện trong danh sách…
-	Edit Original	Bình
-	Edit Subclip…	Bình thường…
+	Edit Offline…	Chỉnh sửa ngoại tuyến…
+	Edit Original	Chỉnh sửa tệp gốc
+	Edit Subclip…	Chỉnh sửa đoạn con…
 	Editing	đạo
 	Effect Controls	Điều khiển hiệu ứng
 	Effects	Hiệu ứng
@@ -111,12 +111,12 @@
 	Enable	Không khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi
 	Enable Remix	Không thể khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi không Evolution Evolution Evolution Evolution Evolution Evolution Evolution khởi khởi khởi khởi khởi khởi không Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution không Evolution không Evolution khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution khởi khởi khởi khởi khởi Evolution Evolution Evolution Evolution Evolution Evolution Evolution khởi khởi khởi khởi khởi khởi khởi Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution Evolution khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi
 	Essential Graphics	Tháng tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích mười mười mười mười mười mười mười mười mười haiyyyyyyyyyyyyyyyyyyyy mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười mười
-	Essential Sound	Không tìm tích chung tích chung tích tích tích tích tích tích tích tích ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn không ngắn không ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn không không không không ngắn ngắn ngắn ngắn ngắn không không không ngắn ngắn ngắn ngắn ngắn ngắn ngắn không không
+	Essential Sound	Âm thanh thiết yếu
 	Events	Bình
 	Export	Xuất video
 	Export As Motion Graphics Template…	Xuất dạng nguyên tử…
-	Extract	Không có
-	Extract Audio	Không, không có, không có, không có, không có
+	Extract	Trích xuất
+	Extract Audio	Tách âm thanh
 	Field Options…	Độ sâu:…
 	File	Tệp
 	File…	Tập tin…
@@ -138,7 +138,7 @@
 	From Source Monitor, Match Frame	Comment từ kho từ kho từ kho khích khởi khởi khởi khởi khởi chạy từ kho từ khot thoát không khi khởi khởi chạy rời gói từ khot thoát không khi thoát không khi thoát không khi thoát không khi thoát không khi thoát không khi thoát không khi thoát không khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi thoát không không khi thoát không khi thoát không khi thoát không khi thoát không khi thoát thoát không khi thoát thoát thoát thoát thoát thoát không khi thoát thoát không khi thoát không khi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi gói thoát không khi khi thoát không thoát không khi thoát không khi thoát thoát thoát thoát thoát không thoát gói khi thoát thoát thoát thoát thoát thoát thoát gói khi thoát gói khi thoát gói thoát gói khi thoát thoát thoát thoát gói khi thoát gói khi thoát gói khi thoát gói khi thoát thoát thoát gói thoát gói thoát gói thoát thoát thoát gói khi thoát gói thoát gói thoát gói
 	From file…	Từ tập tin…
 	Full	& đầy
-	Generate Audio Waveform	Không có âm chung đôi ngắn ngắn ngắn ngắn ngắn ngắn ngắn không ít đôi đôi đôi không ít đôi không không ít không không ít không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không
+	Generate Audio Waveform	Tạo dạng sóng âm thanh
 	Get Media File Properties for	Không thể khởi chạy nó
 	Go to Gap	Thêm vào Ảnh
 	Go to In	Thêm
@@ -147,7 +147,7 @@
 	Go to Out	- tìm ra ra ngoài ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra
 	Go to Previous Caption Segment	& tới & tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần
 	Go to Previous Marker	Bỏ dấu thêm dấu thêm dấu thêm thêm dấu thêm thêm thêm dấu thêm thêm thêm
-	Go to Split	Điin
+	Go to Split	Đi đến điểm tách
 	Graphics and Titles	Các sự thiên lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc lạc và hư thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng thăng đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu đâu?
 	Graphics…	Đồ họa…
 	Green	Đơn đơn
@@ -166,8 +166,8 @@
 	Import…	Nhập…
 	Info	Không có
 	Ingest Settings…	@ info: status…
-	Insert	Thêm
-	Insert Frame Hold Segment	Cô ấy nói rằng, bên bên bên bên bên bên bên bên bên bên cạnh, bên bên bên bên bên bên bên bên bên bên bên bên bên bên bên cạnh
+	Insert	Chèn
+	Insert Frame Hold Segment	Chèn đoạn giữ khung hình
 	Install Motion Graphics Template…	Đang khởi động chế độ chính tả…
 	Interpret Footage…	& Khoảng cách:…
 	Join the ArtCraft Discord…	Hoa tiêu Hoa Kỳ…
@@ -179,10 +179,10 @@
 	Learning	& đầy
 	Left	Trái
 	Libraries	L vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng quá quá quá quá quá quá quá quá! Tuần quá quá quá vắng vắng vắng vắng vắng vắng quá quá quá quá quá quá! Tuần quá quá vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng quá quá quá quá quá quá quá! Tuần quá quá quá quá quá vắng vắng vắng vắng vắng vắng vắng vắng vắng quá quá quá quá quá quá quá quá! Tuần quá quá quá vắng quá quá quá quá quá quá vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng vắng quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá quá vắng vắng vắng
-	Lift	Nâng
+	Lift	Nhấc đoạn (giữ khoảng trống)
 	Light	ánh sáng ánh ánh ánh ánh ánh trụ trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh ánh ánh ánh ánh trụ ánh trụ ánh trụ ánh trụ ánh trụ ánh ánh ánh ánh ánh trụ ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh ánh
-	Link	Tổ & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &
-	Link Media…	Đang nạp ảnh…
+	Link	Liên kết
+	Link Media…	Liên kết lại tư liệu…
 	Refresh Changed Media	Không thể tin chính! Không thể thỏa thỏa đôi đôi đôi!
 	Linked Selection	Đã tìm thấy nên nên chúng ta có thể làm nên nên nên nên nên thêm từ nhau, nên nên cũng không có hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai hai nhau nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên, nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên nên
 	Lock Guides	Những đường
@@ -193,11 +193,11 @@
 	Make Subclip…	Làm & mờ độ sâu…
 	Make Subsequence	Comment
 	Manage Guides…	& Hướng dẫn…
-	Mark Clip	Độ &unitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunit
+	Mark Clip	Đánh dấu đoạn video
 	Mark In	Thêm
 	Mark Out	Không có, ít ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ít ít ít ít ra
 	Mark Selection	Đồng ít điểm ảnh
-	Mark Split	Chỉ có ít điểm
+	Mark Split	Đánh dấu điểm tách
 	Markers	Điểm đánh dấu
 	Match Frame	Tổ
 	Media Analysis & Transcription…	& Chính tả…
@@ -206,7 +206,7 @@
 	Media…	Giới thiệu…
 	Medium	Trung bình
 	Memory…	Bộ lọc…
-	Merge Clips…	Độ xoay…
+	Merge Clips…	Gộp các đoạn video…
 	Metadata	Không có
 	Modify	Chính:
 	Motion Graphics Template…	Tự động sửa ảnh mẫu…
@@ -216,27 +216,27 @@
 	New	Mới
 	New Layer	Mới tạo lên trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ chung chung chung chung chung chung chung chung chung chung chung chung chung chung trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ
 	New Project Panel	Comment
-	Next in Sequence	In in
-	Next in Track	Comment
-	Normalize Mix Track…	Gặp lỗi chính tả trong tập ảnh…
+	Next in Sequence	Mục tiếp theo trong chuỗi dựng
+	Next in Track	Mục tiếp theo trên rãnh
+	Normalize Mix Track…	Chuẩn hóa âm lượng rãnh trộn…
 	Offline File…	Đang thử…
 	Open Project…	Đang cập nhật…
 	Open Recent	chứa
 	Clear Recent Files	Không có
 	Recent	Bình
 	Optical Flow	Không có chính chính chính giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải chính chính
-	Overwrite	Chính:
+	Overwrite	Ghi đè
 	Paste	Dán
 	Paste Attributes…	Đồ lót…
-	Paste Insert	Không có xu xu
+	Paste Insert	Dán và chèn
 	Paused Resolution	Không bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao cả không không không không không không không không không không không không không không không không không không không không không không không không không không không
 	Playback Resolution	Không phát
 	Playback…	Không tìm thấy bộ thay đổi chung chung chung chung…
 	Plugins…	Bổ sung…
 	Polygon	12
 	Preferences	Tùy chọn
-	Previous in Sequence	Không in
-	Previous in Track	Gặp dấu in in in in in in in in in in in in in
+	Previous in Sequence	Mục trước trong chuỗi dựng
+	Previous in Track	Mục trước trên rãnh
 	Program	Thêm xu tích
 	Progress	Tiến độ
 	Project	Dự án
@@ -258,12 +258,12 @@
 	Remove Pauses	Đồng
 	Remove Unused	Không mở
 	Rename…	Thay đổi…
-	Render Audio	Không có
+	Render Audio	Kết xuất âm thanh
 	Render Effects In to Out	Những hậu hậu đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến đến
 	Render In to Out	& & ra in ra in in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra in ra ra in ra ra ra in ra ra ra ra ra ra ra ra in ra in ra ra ra ra in ra in ra in ra in ra ra ra ra ra ra ra ra ra ra ra ra ra ra in ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra ra in ra ra ra ra ra ra in ra ra ra ra ra ra ra ra ra ra in ra ra ra
 	Render Selection	Đồng:
 	Replace Fonts in Projects…	Các dữ liệu trong Dự án…
-	Replace With Clip	Không có
+	Replace With Clip	Thay bằng đoạn video
 	Report an Issue…	Báo cáo một…
 	Reset All Parameters	Tất
 	Reset Duration	Mẫu:
@@ -276,8 +276,8 @@
 	Review	Phần
 	Right	Phải
 	Ripple Delete	Xóa dồn
-	Ripple Delete Head Frame	Chỉ riêng
-	Ripple Sequence Markers	Không thể thaympmpmpmpmpmpmpmpmpmpmpmpmpmpm ít ít ít ít ít ít ít ít không không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không ít ra không lại lại lại lại lại lại làm ít ra gấp lại đôi vô lại đôi vô lại đôi đôi đôi đôi vô lại đôi đôi ít ít không lại lại lại lại đôi vô lại đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi không không không không ít ra không ít ra không ít ra không lại vô lại đôi vô lại vô lại vô lại đôi vô lại đôi vô lại vô lại đôi đôi đôi đôi đôi đôi đôi đôi đôi vô vô vô vô vô vô vô lại đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi vô
+	Ripple Delete Head Frame	Xóa dồn khung hình đầu
+	Ripple Sequence Markers	Di chuyển điểm đánh dấu theo chỉnh sửa dồn
 	Rose	Tên
 	Safe Margins	An an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an an
 	Save	Lưu
@@ -287,7 +287,7 @@
 	Save a Copy…	Thêm…
 	Save as Template…	& Xuất ra danh sách…
 	Scale to Frame Size	Hiện tại, trong khi ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh ảnh, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, chúng, chúng, miễn, miễn, có có có, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, chúng chúng, miễn, miễn, miễn, miễn, miễn, tổn tổn tổn tổn tổn tổn tổn tổn tổn tổn tổn, miễn, miễn, miễn, miễn, miễn, miễn,, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn, miễn có có có có có có có,
-	Scene Edit Detection…	Chính tả…
+	Scene Edit Detection…	Phát hiện điểm cắt theo cảnh…
 	Scratch Disks…	Những mảnh…
 	Search Bin	Thêm
 	Select	Chọn
@@ -304,9 +304,9 @@
 	Send Backward	Quay
 	Send to Back	Bỏ lùi lùi lùi
 	Sequence	Chuỗi dựng
-	Sequence From Clip	Vậy, chúng tan
-	Sequence Settings…	Thiết lập…
-	Sequence…	& Thay…
+	Sequence From Clip	Tạo chuỗi dựng từ đoạn video
+	Sequence Settings…	Cài đặt chuỗi dựng…
+	Sequence…	Chuỗi dựng…
 	Show Active Caption Tracks Only	Không tìm tìm tìm giải tìm giải tìm tìm tìm tìm tìm tìm/ tìm tìm tìm tìm tìm tìm tìm/ đêm trong tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tới đơn thêm Chỉ trong tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tới đơn đơn đơn đơn thêm Chỉ tới tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tới đơn tới đơn đơn tới đơn tới đơn tới đơn đơn tới đơn đơn đơn đơn đơn đơn tới đơn tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm
 	Show All Caption Tracks	Theo cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối
 	Show All Marker Colors	Màu:
@@ -314,12 +314,12 @@
 	Show Guides	Chỉ
 	Show Rulers	Không đơn
 	Show Through Edits	Chỉ ra
-	Simplify Sequence…	Tổng hợp…
+	Simplify Sequence…	Đơn giản hóa chuỗi dựng…
 	Snap in Program Monitor	Gặp màn ảnh không tích tạm màn chúng chúng chúng chúng lập tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tíchm màn chúng inm màn chúng inmmmmmmmmmm màn màn màn màn màn màn màn màn màn màn màn màn màn màn chúng chúng chúng chúng chúng chúng inm tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích màn chúng inm màn màn chúng in màn chúng inm tích tích tích chúng chúngym màn chúng chúng chúng chúng chúng chúngy
-	Snap in Timeline	Không có dấu chỉ trên gặp cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục không không không không thêm chỉ nên Christianin nên Christianininin nên Christian Christian Christian cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục cục không
+	Snap in Timeline	Bắt dính trên dòng thời gian
 	Source	Nguồn
 	Source Settings…	Thiết lập…
-	Speed/Duration…	Đang gỡ bỏ kích hoạt…
+	Speed/Duration…	Tốc độ / Thời lượng…
 	Synchronize…	Đồng bộ đồng bộ hoá…
 	System Compatibility Report…	Thông báo Hệ thốngComment…
 	Tan	chứa
@@ -329,17 +329,17 @@
 	Timecode	%d
 	Timecode…	Thời gian…
 	Timeline	Dòng thời gian
-	Timeline…	Thời gian…
+	Timeline…	Dòng thời gian…
 	Toggle Proxies	N N N N N N N
 	Tools	Công cụ
 	Top	Trên
-	Transcribe Sequence…	Trích dẫn tài liệu…
+	Transcribe Sequence…	Chuyển lời thoại chuỗi dựng thành văn bản…
 	Transcribe…	Ghi chép…
 	Transcript	Bản chép lời
 	Transparency Grid	Đồng cỏ
 	Transparent Video…	Thêm…
-	Trim Edit	lmmm bán đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo đạo
-	Trim…	& mm…
+	Trim Edit	Tinh chỉnh điểm cắt
+	Trim…	Cắt xén…
 	Undo	Hoàn tác
 	Ungroup	Không có
 	Universal Counting Leader…	Đang đếm…
@@ -350,7 +350,7 @@
 	Video In	Đoạn thẳng
 	Video Options	Ảnh
 	Video Out	Tạo thoát ra sớm thoát thoát thoát thoát thoát ra thoát thoát ra thoát thoát thoát thoát ra thoát thoát ra thoát thoát ra thoát ra thoát thoát thoát ra thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm nữa thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát thoát
-	Video and Audio Waveform Split	Kiểu ảnh ảnh ảnh và ảnh ảnh và ảnh ảnh ảnh và ảnh ảnh ảnh và ảnh ảnh nămComment
+	Video and Audio Waveform Split	Tách video và dạng sóng âm thanh
 	View	Hiển thị
 	Violet	tinh
 	Window	Cửa sổ
@@ -358,13 +358,13 @@
 	Yellow	Đồng
 	Zoom In	Phóng to
 	Zoom Out	Thu nhỏ
-	Zoom to Sequence	thu nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ nhỏ thu nhỏ thu nhỏ in thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ nhỏ nhỏ nhỏ nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ in thu nhỏ thu nhỏ thu nhỏ in thu nhỏ thu nhỏ thu nhỏ in thu nhỏ in mét mét thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu nhỏ thu thu thu thu thu thu thu thu nhỏ thu nhỏ thu nhỏ
+	Zoom to Sequence	Thu phóng vừa chuỗi dựng
 	Home	Trang chủ
 	Import	Nhập
 	{name} - Edited	{name} có sẵn
 	Full screen	Không có tư tư tư tư không đồng không không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không đồng không không đồng không không đồng không đồng không không không đồng không đồng không không đồng không đồng không không đồng không không đồng không không đồng không đồng không đồng không không không đồng không không đồng không không không không không đồng không đồng không không không không không không không đồng không không không đồng không không không không không không không không không không không không không không không không không không không không không không không đồng không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không đồng không không không không không
 	Volume	Âm lượng
-	Master volume: use the Audio Track Mixer	Sư gia: hãy sử dụng bộ giải tìm tìm tìm giải giải âmName
+	Master volume: use the Audio Track Mixer	Âm lượng chính: sử dụng Bộ trộn âm thanh theo rãnh
 	Search	Tìm kiếm
 	Quick Export	nhanh
 	Join the ArtCraft Discord (discord.gg/artcraft)	Chia sẻ máy ảnh
@@ -380,9 +380,9 @@
 	Working Color Space	Không có nhiều nước không có nhiều nhiều nước không nhiều nhiều không không không nhiều không không không nhiều không không không nhiều không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không Không không Không không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không Không
 	Wide gamut color (composite in BT.2020)	Không có màu vô thu sẵn (không có trong BT. 20)
 	Auto tone map media (HDR and log into SDR)	Khá khởi động sơ khởi khởi động khởi động khởi động khởi động khởi động khởi động khởi độngComment
-	Audio Gain	Đồng đều
-	Set Gain to:	Có dấu đặt có có có có có & nằm & lại:
-	Adjust Gain by:	& Tương đối
+	Audio Gain	Mức khuếch đại âm thanh
+	Set Gain to:	Đặt mức khuếch đại thành:
+	Adjust Gain by:	Điều chỉnh mức khuếch đại thêm:
 	Normalize Max Peak to:	Có phải là tập tin còn không thành 0 thành:
 	Normalize All Peaks to:	Có phải không? Không sửa Trung tâm thành:
 	Peak Amplitude: {peak}	Đơn giản: {peak}
@@ -393,21 +393,21 @@
 	Add Tracks	Thêm các rãnh
 	Amount	Số
 	Placement	có & trụ
-	Track type	Kiểu
+	Track type	Loại rãnh
 	Add video tracks	Thêm tờ thêm, thêm, thêm, thêm, thêm, thêm thêm thêm, thêm thêm thêm, thêm thêm thêm thêm thêm
-	Add audio tracks	Không có âm âm có có ổ ổ ổ không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có có
-	Add audio submix tracks	Không có âm thanh
+	Add audio tracks	Thêm rãnh âm thanh
+	Add audio submix tracks	Thêm rãnh trộn âm thanh phụ
 	After {name}	♪ {name}
-	Before First Track	Truyền
+	Before First Track	Trước rãnh đầu tiên
 	Delete Tracks	Xóa các rãnh
 	Video Tracks	CommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentCommentComment
-	Audio Tracks	Truyền giải giải giải giảiComment
+	Audio Tracks	Các rãnh âm thanh
 	Delete Video Tracks	Truyền/ tìm
-	Delete Audio Tracks	Truyền
+	Delete Audio Tracks	Xóa các rãnh âm thanh
 	All Empty Tracks	Truyền
 	Caption Tracks	Comment
 	Delete Caption Tracks	Comment/ tìm tìm giải tìm giải tìm giải tìm giải tìm giải tìm tìm giải tìm tìm giải tìm tìm giải tìm tìm tìm giải tìm tìm tìm tìm tìm tìm giải tìm tìm tìm tìmComment
-	Delete Caption Track	Không tìm tìm giải tìm giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm tìm giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải giải
+	Delete Caption Track	Xóa rãnh phụ đề
 	Delete Empty Caption Tracks	Không tìm tìm tìm giải tìm giải giải giải tìm giải giải tìm tìm giải giải giải giải giải tìm tìm tìm tìm tìm giải
 	Version {version}	Phi {version}
 	A clean-room, pure-Rust non-linear video editor. Part of the ArtCraft family.	Một bộ biên tập phim sạch sẽ, tinh khiết, không phải là một phần của gia đình ArtCra.
@@ -444,11 +444,11 @@
 	No	Tên
 	Add media to your project. Drop files anywhere in the window, or choose a source below.	Thêm phương tiện vào dự án của bạn. Bỏ tập tin đi bất cứ nơi nào trên cửa sổ, hoặc chọn một nguồn bên dưới.
 	Browse files…	Tập tin…
-	Movies, audio and stills from disk	Comment, âm thanh, âm thanh và vẫn còn lại từ đĩa
+	Movies, audio and stills from disk	Video, âm thanh và ảnh từ ổ đĩa
 	Demo footage	Cảnh ghi ghi ghi cảnh ghi cảnh
-	Six procedural 1080p clips with sound	♪ Hãy cùng với âm thanh ♪ ♪
+	Six procedural 1080p clips with sound	Sáu đoạn video 1080p tạo sẵn kèm âm thanh
 	Demo project	Gặp tích phát phát phát phát phát nuôi tích phát chia lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát chia lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát lát
-	A cut sequence with transitions, effects and music	♪ Một chuỗi cắt cắt cắt chuỗi với chuyển chuyển chuyển, chuyển động và âm nhạc
+	A cut sequence with transitions, effects and music	Chuỗi dựng đã cắt ghép, có chuyển cảnh, hiệu ứng và nhạc
 	Bars and Tone	Comment
 	SMPTE HD bars with 1 kHz reference tone	Comment
 	Community	Bình
@@ -457,25 +457,25 @@
 	AAF Export Settings	Comment
 	OMF Title:	Tiêu đề MM:
 	Mixdown video	cuộn
-	Audio:	Ghi ghi ghi:
+	Audio:	Âm thanh:
 	Encapsulate	♪ vũ nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau nhau
-	Separate Audio	Không có xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu xu
+	Separate Audio	Tách âm thanh
 	Embed	Em
 	Separate Files	Tập tin
-	Link to Media	Đồng:
-	Audio File Format:	Không có gì
+	Link to Media	Liên kết tới tư liệu
+	Audio File Format:	Định dạng tệp âm thanh:
 	Sample Rate:	Đồng sẵn
 	Bits per Sample:	Khoảng trắng
 	Rendering:	ghi & chân
-	Trim audio files	âmmmmmmmmmmmmmmmmmmmmmmmmmmmmm tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích Symmmmmmm Symmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm Sym Symmm Sym Symm Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sym Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sy Sym
+	Trim audio files	Cắt xén tệp âm thanh
 	Handle Frames:	Những & ngày:
-	Render audio clip effects	Không âm âm âm động âm âm âm thanh âm âm âm âm thanh âm âm âm âm dàn dàn dàn dàn dàn âm âm âm âm âm tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm
+	Render audio clip effects	Kết xuất hiệu ứng âm thanh của đoạn
 	Breakout to mono	Không có bất miễn miễn miễn không không ra không ra không không ra không không ra ra không không không không ra không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không không ra không không không không không không không không không không không không không không không không không không không không không không
 	Exported {path}	Đã được bán chính ra cấp cấp cấp dưới, nhưng dù trường trường trường trường trường trường, trường trường trường trường trường trường, trường trường trường chính, trường trường trường trường trường trường, trường trường trường trường trường trường, trường trường trường trường trường trường trường, trường trường trường trường chính. {path}
-	Select a clip to view its metadata.	Chọn một đoạn cần xem đối tượng.
-	Clip: {name}	Độ & &unit {name}
+	Select a clip to view its metadata.	Chọn một đoạn video để xem thông tin.
+	Clip: {name}	Đoạn video: {name}
 	Open	Mở
-	(no sequence)	kiểu tiến khởi khởi khởi khởi khởi khởi chạy
+	(no sequence)	(chưa có chuỗi dựng)
 	Show or hide {color} markers	Hiện/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ ẩn/ lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên giá lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên giá lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên {color} Chính
 	Marker	Điểm đánh dấu
 	{tc}  Chapter	{tc}  Bình
@@ -488,19 +488,19 @@
 	Settings:	Thiết lập:
 	Playhead:	& Phát
 	Video {n}:	Ảnh đơn {n}:
-	Audio {n}:	Không có {n}:
+	Audio {n}:	Âm thanh {n}:
 	UI:	& Thêm
 	{fps} fps · {n} frames queued	{fps} Thật sự {n} cũng có sẵninininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininin lênininininininininininininininininininininininininininin lêninininininininininininininininininininininininininininininininininininininininininin
 	{panel} — coming in a later milestone	{panel} đến trong một lát
 	Close Panel	Tự
-	Close Other Timeline Panels	Comment
+	Close Other Timeline Panels	Đóng các bảng dòng thời gian khác
 	Close All	Đóng
 	Maximize Frame	Trung thật
 	Restore Frame	Không có
 	Restore Workspace	Không riêng
-	Reveal Sequence in Project	Comment
+	Reveal Sequence in Project	Hiện chuỗi dựng trong dự án
 	Video Thumbnails	Không tìm lùi lùi nhỏ
-	Audio Waveforms	Không thay tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần
+	Audio Waveforms	Dạng sóng âm thanh
 	Work Area Bar	Chỉ
 	Start: {tc}	Đầu:::: {tc}
 	End: {tc}	& &: {tc}
@@ -525,16 +525,16 @@
 	Fewer · More	Không ít ít rải rải đầy
 	Variations:	Kiểu
 	Remixed to {seconds} s	Đã khởi thêm không vào liên thêm vàoy thêm vàoy thêm không thêm vàoy thêm vàoy thêm vàoy thêm còn thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêm còn còn thêmy thêm vàoy thêm vàoy thêm vàoy thêm vàoy thêmy thêmy thêmy thêmy thêmy thêmy thêmy thêmy thêmy thêmy vàoy vàoy thêmy thêmy thêmy thêmy thêmy thêm có có có có có có có có có có cóyyyyyyyyyyyyy thêmy thêmy vàoy vàoyyyyyyyyyyyyyyyyyyyyy còn còn có có có có có có có có có có có có có có {seconds} s
-	{mode} · no clip	{mode} _ không _ mới
-	{mode} · no sequence	{mode} _ _ _ _ _ _ _ _ khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi
+	{mode} · no clip	{mode} · không có đoạn video
+	{mode} · no sequence	{mode} · không có chuỗi dựng
 	Remove Row	Ngày
 	Add a timecode row	phút
 	Panner	chứa
 	Mute	Tắt tiếng
 	Send {n} Level	& & {n} Có: có có: có: có: như y y có có: có: như y y có có: như như y có có có: như như y y có có có: như như như vậy có có có:
 	Show Keyframes	Hiện khung hình khóa
-	Clip Keyframes	Sao
-	Track Keyframes	Comment
+	Clip Keyframes	Khung hình khóa của đoạn
+	Track Keyframes	Khung hình khóa của rãnh
 	Delete	Xóa
 	Untitled Workspace	Không thể mở
 	New Workspace	Comment
@@ -550,9 +550,9 @@
 	Save Arrangement	Không có gì, không có, không có
 	Saves the view, columns, sort, thumbnail and font size.	Lưu ô xem, cột, sắp xếp, và kích cỡ phông chữ.
 	Grid spacing:	Đồng:
-	Default clip size:	Đồng hồ
+	Default clip size:	Kích thước đoạn video mặc định:
 	Snap to grid	Tự có thể in in in in
-	Show clip names	Nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm nhóm
+	Show clip names	Hiện tên đoạn video
 	Show durations	Không có
 	Show:	Độ:
 	Search fields	Tìm
@@ -561,27 +561,27 @@
 	Column order	đặt đặt đặt đặt đặt đặt đặt đặt đặt đặt đặt ______________________________________________________ ___________________________________ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _                           thoát thoát
 	{n}. (empty)	{n}_ noni_i_i
 	Restore	Không có
-	Overwrite with Current View	Không có riêng riêng riêng riêng, không riêng riêng riêng riêng, không riêng riêng riêng, không riêng riêng riêng, không riêng riêng, chúng, không riêng riêng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng, chúng chúng, chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng chúng
+	Overwrite with Current View	Ghi đè bằng chế độ xem hiện tại
 	Graphics text search arrives with M10.1–M10.2	Giao diện liên kết tìm liên kết tìm nội đơn vui hoạ cho kết tìm kiếm cho kết hợp với M10. 1. 1. 1mMM10.2
-	Open a sequence to work with captions	mở kho
+	Open a sequence to work with captions	Mở chuỗi dựng để chỉnh sửa phụ đề
 	Add captions	Không có xu
-	Create a caption track or import a caption file.	Tạo ra một đường cong hay một tập tin có tên.
-	Create new caption track	Không có gì mới
+	Create a caption track or import a caption file.	Tạo rãnh phụ đề hoặc nhập tệp phụ đề.
+	Create new caption track	Tạo rãnh phụ đề mới
 	Import captions file…	Thật sự thì…
-	New {format} track	Mới tạo trụ có trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung {format} chỉ_____________________ kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích kích
+	New {format} track	Rãnh {format} mới
 	Add caption at playhead	Không có gì
-	Split caption at playhead	Tự động
-	Merge selected captions	Đã tìm kiếm
+	Split caption at playhead	Tách phụ đề tại vị trí con trỏ phát
+	Merge selected captions	Gộp các phụ đề đã chọn
 	Delete selected captions	Những trường
-	No captions on this track. Press + to add one at the playhead.	Không có phần mở rộng trên đường này. Nhấn + để thêm một ở đầu trò chơi.
+	No captions on this track. Press + to add one at the playhead.	Rãnh này chưa có phụ đề. Nhấn + để thêm tại con trỏ phát.
 	No matching captions.	Không khớp.
-	Open a sequence to see its transcript	Mở ra một chuỗi để xem
-	Transcribe sequence	Không có chuỗi
+	Open a sequence to see its transcript	Mở chuỗi dựng để xem bản chép lời
+	Transcribe sequence	Chuyển lời thoại chuỗi dựng thành văn bản
 	Speech-to-text turns the dialogue into editable text.	sang- bên phải- biến hộp thoại thành văn bản có thể sửa đổi.
 	This build has no speech-to-text; import a transcript with transcript.set.	Cấu hình này không có tiếng nói- để- phát âm; hãy nhập một liên kết với bộ nối.
 	Transcribe	Không ghi
-	Extract selected text	Đã chọn
-	Lift selected text	Comment
+	Extract selected text	Trích xuất văn bản đã chọn
+	Lift selected text	Nhấc phần văn bản đã chọn
 	Remove filler words	Thêm tuần tuần kế
 	Create captions	Không có
 	Speaker	Chính
@@ -597,35 +597,35 @@
 	(gap)	( trên & & dọc
 	Out: {name}	& &: {name}
 	In: {name}	Nhóm: {name}
-	Play Around Edit (Space loops, Shift+K once)	Không kết hoạt động bên ngoài hoạt động (inComment
-	Trim Backward Many	Sự ưu ưu ưu ưu ưu ưu ưu ưu ưu ưu ưu,
-	Trim Backward	♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪
+	Play Around Edit (Space loops, Shift+K once)	Phát quanh điểm cắt (Space lặp lại, Shift+K phát một lần)
+	Trim Backward Many	Cắt xén lùi nhiều khung hình
+	Trim Backward	Cắt xén lùi
 	Apply Default Transitions	Không riêng riêng riêng
 	Apply Default Transitions to Selection (Shift+D)	Không có cuộn cuộn cuộn cuộn cuộn cuộn cuộn cuộn cuộn cuộn nó vào chỗ riêng, nên thu thu thu thu nhỏ tập ảnh
-	Trim Forward	mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-	Trim Forward Many	lên
-	Exit Trim Mode	Không, không, không, không, không, không, không, không, không, không, không, không, không, không, không, không!
-	Voice-over record (right-click: Voice-Over Record Settings…)	Ghi ghi đồng có giọng nói (đúng- xem: Thiết lập thiết lập hồ sơ thiết lập hồ sơ thiết lập miền...)
-	Voice-Over Record Settings…	Thiết lập hồ sơ giọng nói…
-	Recording voice-over…	Âm thanh đồng âm thanh âm thanh…
-	Voice-over recorded: {p}	Đồng ghi có có có bóng {p}
-	Voice-over recording stopped (nothing recorded)	Nhiều trường có khả năng thoát khỏi vụ án đã thoát
-	Post-roll	Cách chạy mét năm năm năm nămComment
+	Trim Forward	Cắt xén tiến
+	Trim Forward Many	Cắt xén tiến nhiều khung hình
+	Exit Trim Mode	Thoát chế độ cắt xén
+	Voice-over record (right-click: Voice-Over Record Settings…)	Ghi thuyết minh (nhấp phải để mở Cài đặt ghi thuyết minh…)
+	Voice-Over Record Settings…	Cài đặt ghi thuyết minh…
+	Recording voice-over…	Đang ghi thuyết minh…
+	Voice-over recorded: {p}	Đã ghi thuyết minh: {p}
+	Voice-over recording stopped (nothing recorded)	Đã dừng ghi thuyết minh (không có nội dung được ghi)
+	Post-roll	Phát tiếp sau điểm kết thúc
 	● Recording	năm gỡ gỡ dưới khởi khởi gài năm năm khởi khởi khởi khởi khởi ngắn năm năm năm khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi ngắn năm năm năm khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn ngắn khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi khởi
-	Voice-Over Record Settings	Thiết lậpComment
+	Voice-Over Record Settings	Cài đặt ghi thuyết minh
 	Source:	Nguồn:
 	Default Input	Mặc bộ
 	Input:	Đồng:
 	Channel {n}	& chứa {n}
-	Countdown Sound Cues	Không tìm biết tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin không tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin không tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin tin
-	Pre-roll:	Chuẩn:
+	Countdown Sound Cues	Âm báo đếm ngược
+	Pre-roll:	Phát trước:
 	 seconds	 giây giây/ giây/ giây giây/ giây/ giây giây trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ trụ
-	Post-roll:	Giới chạy
-	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	Hãy quay lại bắt đầu trước khi đầu chơi (hoặc trong điểm), với In / in đánh dấu, ghi vào và ra.
+	Post-roll:	Phát sau:
+	Playback starts the pre-roll before the playhead (or the In point); with In/Out marked, recording punches in and out there.	Bắt đầu phát trước con trỏ phát (hoặc điểm vào); nếu đặt điểm vào/ra, bản ghi sẽ bắt đầu và kết thúc tại đó.
 	Effect	Hiệu ứng
-	Clip Fx Editor	Làm nhỏ gấp
-	Track Fx Editor	Comment
-	Master Gain	Thêm
+	Clip Fx Editor	Trình chỉnh hiệu ứng đoạn video
+	Track Fx Editor	Trình chỉnh hiệu ứng rãnh
+	Master Gain	Khuếch đại âm thanh chính
 	Reset	Đặt lại
 	Band {n}	Có nhiều {n}
 	Solo	Chia đơn
@@ -635,9 +635,9 @@
 	Att	chồng
 	Rel	Hạ
 	Gain	Mức khuếch đại
-	Output Gain	Đồng bán chính
+	Output Gain	Khuếch đại đầu ra
 	Limiter	Không có lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần
-	Link Channels	Thêm & thêm
+	Link Channels	Liên kết các kênh
 	Limiter Threshold	Không thêm mre bán đơn tới tới tới tới canh thay chung chung chung chung chung Không thêm ít́n bán đơn thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm Lục doanh doanh doanh doanh doanh doanh doanh doanh doanh doanh doanh doanh tìm thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay thay chung chung chung chung chung chung thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung chung thêm thêm thêm thêm Không thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm
 	Limiter Release	Không có lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần thêm thêm thêm thêm thêm thêm
 	Auto Gate	Tự tin tự tin tự tin
@@ -649,20 +649,20 @@
 	Auto Makeup	Comment
 	Makeup	Trang nềnCommentCommentComment
 	Expander	Không có lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần lần
-	Soft Clip	Làm nhỏ ảnh
+	Soft Clip	Giới hạn đỉnh mềm
 	(no sequences)	_ _ _ _ tiến chuỗi
 	(no clips)	(không có)
 	Show Transport Controls	Thêm ngày/ tìm giải trong suốt cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối cuối tuần tuần tuần tuần tuần tuần tuần tuần tuần tuần thêm thêm thêm thêm mất thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm tuần tuần tuần tuần tuần tuần tuần thêm thêm thêm thêm thêm tuần tuần thêm thêm thêm thêm thêm thêm tuần thêm tuần thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm thêm tuần thêm
 	Loop	Tổ:
-	Multi-Camera Audio Follows Video	Trình theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều đơn chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều chiều đơn chiều đơn chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều chiều chiều chiều chiều chiều chiều chiều chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều chiều chiều chiều chiều chiều chiều chiều theo chiều theo chiều theo chiều Si chiều theo chiều theo chiều theo chiều theo chiều theo chiều theo chiều chiều theo chiều
-	Multi-Camera Record	Không có nhiều chiều ít nhiều chiều ít nhiều lặp lặp lặp lặp lặp lặp lặp lặp lặp lặp lặp lặp lặp nhiều nhiều nhiều nhiều nhiều nhiều nhiều nhiều chiều đồng nhiều chiều nhiều chiều nhiều đồng nhiều chiều liên liên liên liên liên liên liên cảnh đồng nhiều đêm đồng nhiều đêm đồng nhiều liên cảnh liên cảnh liên cảnh liên liên liên liên liên liên cảnh liên liên liên liên liên liên cảnh liên liên cảnh liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên cảnh liên liên liên liên liên liên liên liên liên liên liên liên liên cảnh liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên cảnh liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên cảnh liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên liên
+	Multi-Camera Audio Follows Video	Âm thanh nhiều camera đi theo video
+	Multi-Camera Record	Ghi nhiều camera
 	Multi-Camera Selection Top Down	Tự động thoát có nhiều chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm thêm thêm chiều đơn thêm chiều đơn thêm thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm thêm thêm thêm thêm thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm chiều đơn thêm thêm thêm thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm nhiều chiều đơn thêm thêm
 	Show Multi-Camera Preview Monitor	Trình theo chiếu chiếu tới chiều theo có chiều theo chiều tới chiều theo chiều trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình trình tới chiều theo chiều theo chiều theo thảm chiều theo thảm thảm chiều theo thảm thảm thảm chiều theo tới chiều theo tới chiều theo tới chiều theo thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm chiều theo tới chiều theo thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm thảm
 	Auto-Adjust Multi-Camera Playback Quality	Tự động khởi chạy lại lặp lặp lại lặp lại lặp lại lặp lại lặp lại lặp lại lặp lại lặp lại lặp lại lặp lại lặp chạy lại lặp lại một điều tự điều tự điều tự điều duy duy duy duy duy lại
 	Transmit Multi-Camera View	Gặp ítmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 	Multi-Camera Layout	Hai chiều hai chiều nhiều chiều đơn chiều đơn chiều đơn đơn đơn đơn chiều đơn đơn đơn đơn đơn chiều hai chiều hai chiều hai chiều hai chiều hai chiều đơn hai chiều đơn hai chiều đơn hai chiều đơn hai chiều đơn hai chiều đơn hai chiều nhiều chiều hai chiều đơn hai chiều nhiều chiều đơn hai chiều đơn hai chiều đơn hai chiều đơn hai chiều nhiều chiều đơn hai chiều đơn hai chiều đơn hai chiều đơn hai chiều đơn hai chiều nhiều chiều đơn hai chiều nhiều chiều đơn hai chiều nhiều chiều hai chiều đơn hai chiều hai chiều nhiều chiều đơn hai chiều nhiều chiều nhiều chiều nhiều chiều đơn hai chiều đơn hai chiều đơn hai thảm hai chiều hai chiều hai thảm thảm thảm hai hai chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều nhiều chiều hai thảm thảm thảm thảm hai chiều hai chiều hai thảm thảm thảm thảm thảm thảm thảm thảm thảm hai chiều hai thảm thảm thảm thảm thảm hai thảm hai thảm
 	Automatic	Tự động
-	Edit Cameras…	& Thay tên trang…
+	Edit Cameras…	Chỉnh sửa camera…
 	Add Marker (M)	Thêm dấu hiệu
 	Mark In (I)	In
 	Mark Out (O)	Comment
@@ -671,10 +671,10 @@
 	Play-Stop Toggle (Space)	Không sẵn phát sẵn phát sẵn phát sẵn sẵn sẵn phát sẵn sẵn sẵn sàng
 	Step Forward 1 Frame (Right)	Bước tới 1 kế
 	Go to Out (Shift+O)	Tới ra ngoài ( đe:
-	Insert (,)	& Chèn
-	Overwrite (.)	Ghi chú:
+	Insert (,)	Chèn (,)
+	Overwrite (.)	Ghi đè (.)
 	Export Frame (Shift+E)	Đã gửi, dạng dạng dạng dạng dạng (sein)
-	Lift (;)	Đang cất cánh
+	Lift (;)	Nhấc đoạn (;)
 	Extract (')	tích hợp
 	Export Frame: use Export mode (M6)	Không có gì cần thiết, không có khả năng thay thế
 	Button Editor	Hiện mảnh mảnh mảnh mảnh mảnh mảnh mảnh mảnh mảnh riêng riêng riêng riêng
@@ -873,7 +873,7 @@
 	Reverb	Thật đơnunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunitunit
 	Stereo Width	lành lành lành lành lành lành lành lànhStencilStencilStencil
 	Remixing music to a target duration is not available yet. Trim the clip and add a crossfade instead.	Đang sao chép âm nhạc vào mục đích còn chưa sẵn sàng. Đang thử đoạn băng và thêm một dấu thay thế.
-	Pan	Khoảng
+	Pan	Cân bằng trái/phải
 	Auto-Match	Tự động
 	Not matched yet	Vẫn còn chưa đầy đầy đầy đủ nhưng vẫn chưa tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích tích chưa nhưng nhưng còn chưa đầy
 	Matches each of the {n} clips on its own.	Giống trong mỗi {n} Tự nó cắt.
@@ -930,7 +930,7 @@
 	Color/Black	Không có ánh
 	White/Black	trắng/ đen
 	Refine	Trung & & & & & &
-	Denoise	Có tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng tăng
+	Denoise	Giảm nhiễu
 	Blur	Làm mờ
 	Correction	Chính
 	Hue Shift	Không phải đôi đôi đôi đim đôi đôi đim đôi đôi đim đôi đôi đim đôi đôi đôi đôi đôi đim, đôi đôi đôi đôi đôi đôi, chính nhưng không phải đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi, chính, chính, chính, đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi đôi, chính, chính, chính đôi đôi đôi đôi đôi đôi đôi.
@@ -1236,7 +1236,7 @@
 	Unrendered: render to play back in real time	Không làm sạch non non non: chưa làm: đang in & & & đơn & & & & & đơn
 	Rendered preview	Chính
 	✓ Enable	Không thể khởi khởi khởi chạy
-	Unlink	Chưa giải giải giải giải giải giải giải giải giải giải giải giải giải giải tìm tìm tìm tìm tìm tìm in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in
+	Unlink	Bỏ liên kết
 	(Default)	(Không có)
 	(RGB) Gamma	(dd2
 	(RGB) Input Black Level	(R &d)) mài mất tích hợp nhất
@@ -1349,7 +1349,7 @@
 	Background Opacity	Chính
 	Background Size	Chính:
 	Background fill	& nền
-	Balance	Trung thùng
+	Balance	Cân bằng âm thanh
 	Balanced Voice	Không phải
 	Band 1	Đôi
 	Band 2	2 2 2 2
@@ -1685,7 +1685,7 @@
 	Extended Dynamic Range Monitoring	Gặp chiếu chiếu chiếu đêm đêm đôi đêm đêm đôi đêm đôi đêm đôi đêm đôi đêm đôi đêm đôi đêm đêm đôi đôi đêm đôiGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericName vẫn vẫn vẫn vẫn còn đôiGenericNameGenericName đôi đôi đôi đôiGenericName đôiGenericName đôiGenericName đôiGenericNameGenericName vẫn vẫn vẫn vẫn vẫn vẫn vẫn vẫnGenericName đôiGenericName đôiGenericName đôiGenericName đôiGenericName đôiGenericName đôiGenericName đôiGenericNameGenericNameGenericNameGenericName đôiGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericName đôiGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericName đôiGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericNameGenericName vẫn vẫn vẫninGenericName
 	FFT Filter	Không có
 	Fade	Không có
-	Fade Out	Đồng đồng đồng đồng cỏ cỏ cỏ cỏ cỏ cỏ cỏ cỏ cỏ cỏ cỏ cỏ cỏ chính ra ra ra chính chính ra ra tại tại đồng đồng đồng đồng đồng đồng đồng cỏ tại tại tại tại tại tại tại tại tại tại đồng đồng đồng đồng đồng đồng đồng đồng cỏ tại tại tại tại tại tại tại tại tại tại tại tại đồng đồng đồng đồng đồng đồng đồng cỏ tại tại tại tại tại tại tại tại tại tại tại tại tại tại tại tại đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng đồng cỏ ra ra lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên lên.
+	Fade Out	Giảm âm dần
 	Faded Matte	T bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao bao???????????????????
 	Falloff	Không may may may không may may may không may may may không may may may không may may không may may không may may may may không không lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ không không may không không may không không không không không không không không không không không không không lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ không không không không may không không không may không không không không may không không không lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ không không không không không không không không không không không lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ không không không không không không không không không không không không không không không không không không không không lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ lộ không không không không không không không không
 	Far Away	Cách khác
@@ -2442,7 +2442,7 @@
 	Spin	tống đơn
 	Spin Direction	tống ngắn ngắn ngắn
 	Spin Motion	Đơn giản
-	Split	Tự
+	Split	Tách
 	Split (Legacy)	Vì vậy, phân tích
 	Spotlight	Ít tối tối tối có sân cách tối tối tối có sân cách tối ít tối tối tối tối có sân cách tối tối cóm xanh sân cách tối ít tối xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh nơi tối ít tối tối tối tối tối tối có xanh sân cách tối có sân cách tối tối xanh xanh xanh xanh xanh nơi tối tối xanh xanh xanh xanh nơi nơi tối tối tối tối tối tối tối tối xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh nơi nơi tối tối tối tối tối tối tối tối tối xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh nơi nơi nơi nơi nơi nơi nơi nơi nơi tối tối tối tối tối tối xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh xanh nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi nơi tối tối tối tối tối xanh xanh xanh xanh xanh xanh xanh xanh
 	Spread	Số
@@ -3085,7 +3085,7 @@
 	Extend Selection Left	Đồng bán thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa, cũng không thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa
 	Extend Selection Right	Đồng sân cỏ chính chính, chính chính, chính, chính, chính, chính, chính, chính, chính, chính, chính,, chính,,, chính, chính, chính, chính, chính, chính,, chính, chính, chính,, chính, chính,, chính, chính,, chính, chính,, chính,, chính, chính,, chính,, chính,, chính,, chính,,, chính,,,, chính,,,, chính,,, chính,,,,,,,,,,,,,,,, không,,, không,,,,, không,,, không,, không,,, không,,,,,,,, không,,,,,, không,,,,, không,,,,,,,,,, không,,,,,,,,,,,,,,,,
 	Extend Selection Up	Đồng bán bán chính bán bán bán bán bán bán bán chính thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thỏa thu
-	Fade In	In
+	Fade In	Tăng âm dần
 	Gaussian Blur from 0 to 60 over the last second	Rosiannd từ 0 đến 60 trên giây cuối cùng
 	Gaussian Blur from 60 to 0 over the first second	Tuy nhiên, chúng ta có thể nhìn thấy chúng từ 60 đến 0 trên 0 trên giây
 	Generate Ducking Keyframes	Gặp tránh tránh tránh tránh tránh tránh tránh tránh tránh tránh
