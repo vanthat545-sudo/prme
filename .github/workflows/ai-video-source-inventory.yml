@@ -2,7 +2,7 @@ name: AI Video source inventory
 on:
   push:
     branches: [feat/ai-video-vietnamese]
-    paths: ['.github/workflows/ai-video-source-inventory.yml']
+    paths: ['.github/workflows/ai-video-source-inventory.yml', 'tools/inspect_source.py']
   workflow_dispatch:
 permissions:
   contents: read
@@ -11,42 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Inspect FilmCraft source archive without changing it
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import zipfile, pathlib, collections, re
-          zip_path = pathlib.Path("filmcraft-main.zip")
-          if not zip_path.is_file(): raise SystemExit("filmcraft-main.zip missing")
-          with zipfile.ZipFile(zip_path) as z:
-              members = [x for x in z.infolist() if not x.is_dir()]
-              print("ARCHIVE",zip_path.name,"FILES",len(members),"TOTAL_UNCOMPRESSED",sum(x.file_size for x in members))
-              roots=collections.Counter(x.filename.split('/')[0] for x in members)
-              print("ROOTS",roots.most_common(12))
-              extensions=collections.Counter(pathlib.Path(x.filename).suffix.lower() for x in members)
-              print("EXTENSIONS",extensions.most_common(22))
-              print("\nTOP SOURCE FILES:")
-              for x in members[:160]: print(x.filename,"bytes",x.file_size)
-              patterns = [r'(^|/)(cargo.toml|package.json|package-lock.json|tauri.conf.json|app.json|app.config.js|electron-builder.yml|info.plist|pubspec.yaml|readme.md|requirements.txt|pyproject.toml|cmakelists.txt|makefile|build.gradle|settings.gradle|strings.xml)$',r'(^|/)(i18n|locales|translations|lang|languages|resources|assets|icons|logo|branding|public|images)(/|$)']
-              candidates=[x for x in members if any(re.search(p,x.filename.lower()) for p in patterns)]
-              print("\nCANDIDATE FILES",len(candidates))
-              for x in candidates[:160]:print(x.filename,"bytes",x.file_size)
-              print("\nMANIFEST PREVIEWS:")
-              count=0
-              for x in members:
-                  lower=x.filename.lower()
-                  if any(lower.endswith('/'+n) or lower==n for n in ('cargo.toml','package.json','tauri.conf.json','readme.md','pubspec.yaml','pyproject.toml','electron-builder.yml','info.plist','cmakelists.txt')) and x.file_size < 200000:
-                      print("\n--",x.filename,"--")
-                      print(z.read(x).decode("utf-8","replace")[:2500])
-                      count+=1
-                      if count>=12:break
-              print("\nVISIBLE LABEL CANDIDATES:")
-              source_exts={'.rs','.tsx','.ts','.jsx','.js','.swift','.vue','.svelte','.py','.html','.json','.xml','.qml'}
-              for x in members:
-                  if pathlib.Path(x.filename).suffix.lower() not in source_exts or x.file_size>200000:continue
-                  try: s=z.read(x).decode('utf-8','replace')
-                  except:continue
-                  hits=re.findall(r'.{0,70}(?:FilmCraft|filmcraft|FILMCRAFT|FimCAD|AI Video).{0,100}',s,re.I)
-                  if hits:
-                      print(x.filename,":",repr(hits[:8])[:650])
-          PY
+      - name: Inspect FilmCraft source archive and UI structure
+        run: python3 tools/inspect_source.py
