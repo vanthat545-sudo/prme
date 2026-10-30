@@ -37,17 +37,29 @@ def audit():
     extra=[k for k in translated if k not in source]
     bad=[]
     identical=[]
+    quality_flags=[]
     for k,v in translated.items():
         if k not in source:continue
         original=k[1]
         if placeholders(original)!=placeholders(v):bad.append({"key":original,"reason":"placeholder mismatch"})
         if original.endswith("…")!=v.endswith("…"):bad.append({"key":original,"reason":"ellipsis mismatch"})
         if original==v: identical.append(original)
+        # A machine-generated line can be formatted correctly yet completely unusable.
+        # Reject runaway repetitions and unnatural length explosions before releasing.
+        if len(v)>max(190,len(original)*3+95):
+            quality_flags.append({"key":original,"reason":"abnormally long translation","translation":v[:160]})
+        tokens=re.findall(r"[\wÀ-ỹ]+",v.lower())
+        if any(tokens[i]==tokens[i+1]==tokens[i+2]==tokens[i+3] for i in range(max(0,len(tokens)-3))):
+            quality_flags.append({"key":original,"reason":"repeated word loop","translation":v[:160]})
+        if v.count("&")>=3:
+            quality_flags.append({"key":original,"reason":"stray ampersand sequence","translation":v[:160]})
     report={
        "source_entries":len(source),"vietnamese_entries":len(translated),
        "missing_entries":len(missing),"unknown_entries":len(extra),
        "format_errors":len(src_errors)+len(tr_errors)+len(bad),
        "same_english_vietnamese_count":len(identical),
+       "machine_translation_quality_flags":len(quality_flags),
+       "quality_samples":quality_flags[:35],
        "examples_missing":[k[1] for k in missing[:25]],
        "examples_untranslated":[k for k in identical[:25]],
        "errors":(src_errors+tr_errors)[:30]+bad[:30],
@@ -55,7 +67,7 @@ def audit():
     }
     print(json.dumps(report,ensure_ascii=False,indent=2))
     Path("translation-audit.json").write_text(json.dumps(report,ensure_ascii=False,indent=2))
-    if missing or extra or src_errors or tr_errors or bad:
-        raise SystemExit("FAIL: Vietnamese catalog is not yet structurally complete")
+    if missing or extra or src_errors or tr_errors or bad or quality_flags:
+        raise SystemExit("FAIL: Vietnamese catalog has missing keys, format errors or machine-translation quality failures")
 if __name__=="__main__":
     audit()
