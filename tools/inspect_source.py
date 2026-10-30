@@ -1,32 +1,47 @@
-import zipfile, re, pathlib, collections
+import zipfile, re, pathlib
 with zipfile.ZipFile("filmcraft-main.zip") as z:
-    paths=[n for n in z.namelist() if not n.startswith("__MACOSX/") and not n.endswith("/")]
-    focus=[n for n in paths if n.startswith(("filmcraft-main/apps/","filmcraft-main/packaging/macos/","filmcraft-main/assets/app-icon/","filmcraft-main/docs/brand/")) or (n.startswith("filmcraft-main/crates/ui-egui/src/") and n.count("/")<=5)]
-    print("=== FOCUSED TREE ===")
-    for x in focus[:350]:print(x)
-    print("=== LOCALE RELATED ===")
-    names=[p for p in paths if re.search("i18n|local|lang|translat|strings|vi[_-]vn|vietnam|font",p,re.I)]
-    for n in names[:140]:print(n)
-    print("=== USER VISIBLE BRAND AND LOCALIZATION ===")
-    found=0
-    for p in paths:
-        if not(p.endswith((".rs",".toml",".sh",".plist",".md",".json",".yml",".svg",".py"))):continue
-        if not(p.startswith(("filmcraft-main/crates/ui-egui/","filmcraft-main/apps/","filmcraft-main/packaging/macos/","filmcraft-main/assets/app-icon/"))):continue
-        try: text=z.read(p).decode("utf-8")
-        except:continue
-        lines=text.splitlines()
-        hits=[(i+1,line.strip()) for i,line in enumerate(lines) if re.search(r'FilmCraft|filmcraft|tr\!\(|localiz|locale|Language|English|Deutsch|Français|Menu|Home|Title|Window|window_title|icon',line,re.I)]
-        if not hits:continue
-        print(f"### {p} LINES={len(lines)} HITS={len(hits)}")
-        for i,line in hits[:12]: print(f"{i}: {line[:230]}")
-        found+=1
-        if found>=48:break
-    print("=== KEY FILE PREVIEWS ===")
-    patterns=["filmcraft-main/Cargo.toml","filmcraft-main/crates/ui-egui/Cargo.toml"]
-    patterns +=[p for p in paths if p.startswith("filmcraft-main/packaging/macos/") and p.endswith((".sh",".plist",".py"))][:6]
-    patterns +=[p for p in paths if p.startswith("filmcraft-main/crates/ui-egui/src/") and re.search(r"app.rs|main.rs|lib.rs|locale|i18n|localization",p,re.I)][:6]
-    for p in patterns[:16]:
-        if p not in paths: continue
-        print("###",p)
-        contents=z.read(p).decode("utf-8","replace")
-        print(contents[:5500])
+    files=[x for x in z.namelist() if x.startswith("filmcraft-main/") and not x.endswith("/")]
+    chosen=[
+"crates/ui-egui/src/i18n/mod.rs",
+"crates/ui-egui/src/i18n/catalog.rs",
+"crates/ui-egui/src/i18n/ja.tsv",
+"crates/ui-egui/src/i18n/fr.tsv",
+"crates/ui-egui/src/brand.rs",
+"apps/filmcraft/src/main.rs",
+"apps/filmcraft-web/web/index.html",
+"packaging/macos/Info.plist.in",
+"packaging/macos/package.sh",
+"crates/ui-egui/src/menus.rs",
+"crates/ui-egui/src/state.rs",
+"crates/ui-egui/src/credits.rs",
+"apps/filmcraft/build.rs",
+"assets/app-icon/README.md",
+]
+    for name in chosen:
+        p="filmcraft-main/"+name
+        if p not in files:continue
+        s=z.read(p).decode("utf8","replace"); lines=s.splitlines()
+        print("=== FILE",name,"LINES",len(lines),"BYTES",len(s),"===")
+        if name.endswith(".tsv"):
+            print("SAMPLE",repr(lines[:20]))
+            print("TOTAL",len(lines))
+        elif name.endswith("package.sh"):
+            for i,l in enumerate(lines):
+                if i<18 or i>95 and i<135 or "DMG" in l or "CFBundle" in l: print(str(i+1)+": "+l[:300])
+        elif name.endswith("main.rs") and name.startswith("apps/"):
+            for i,l in enumerate(lines):
+                if i<35 or re.search("FilmCraft|filmcraft-macos|icon|window_title|title|Window",l,re.I):print(str(i+1)+": "+l[:250])
+        elif name.endswith("state.rs"):
+            for i,l in enumerate(lines):
+                if re.search("language|locale|System|English|Settings",l,re.I):print(str(i+1)+": "+l[:250])
+        elif name.endswith("menus.rs"):
+            for i,l in enumerate(lines):
+                if re.search("Language|Japanese|English|German|Français|Italian|Portugu|locale|i18n|Language",l,re.I):print(str(i+1)+": "+l[:250])
+        else:
+            print(s[:19000])
+    print("=== UI STRING COUNTS BY FILE ===")
+    for p in files:
+        if p.startswith("filmcraft-main/crates/ui-egui/src/") and p.endswith(".rs"):
+            s=z.read(p).decode("utf8","replace")
+            hits=len(re.findall(r"\b(?:tl|tlf)!\s*\(",s))
+            if hits>0: print(hits,p)
