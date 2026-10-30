@@ -5,9 +5,15 @@ BRANCH="feat/ai-video-vietnamese"
 readonly MAX_ATTEMPTS=70
 mkdir -p release_candidate/{mac,windows,audit}
 get_result() {
-  local workflow="$1" sha="$2"
-  gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/${workflow}/runs?branch=${BRANCH}&per_page=100" |
-    jq -r --arg rev "$sha" '[.workflow_runs[] | select(.head_sha == $rev) | {id,status,conclusion}][0] | if . == null then "PENDING" else (.id|tostring) + ":" + .status + ":" + (.conclusion // "null") end'
+  local name="$1" revision="$2"
+  local id sha status conclusion
+  while IFS=$'\t' read -r id sha status conclusion; do
+    if git merge-base --is-ancestor "$revision" "$sha"; then
+      printf '%s:%s:%s\n' "$id" "$status" "$conclusion"
+      return 0
+    fi
+  done < <(printf '%s' "$runs_json" | jq -r --arg name "$name" '.workflow_runs[] | select(.name==$name) | [.id, .head_sha, .status, (.conclusion//"null")] | @tsv')
+  printf 'PENDING\n'
 }
 for attempt in $(seq 1 "$MAX_ATTEMPTS"); do
   git fetch -q origin "$BRANCH"
@@ -18,10 +24,11 @@ for attempt in $(seq 1 "$MAX_ATTEMPTS"); do
     continue
   fi
   echo "[$attempt] Vietnamese translation revision: $translated_commit"
-  mac=$(get_result ai-video-macos-dmg.yml "$translated_commit")
-  win=$(get_result ai-video-windows.yml "$translated_commit")
-  audit=$(get_result ai-video-l10n-audit.yml "$translated_commit")
-  check=$(get_result ai-video-package.yml "$translated_commit")
+  runs_json=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs?branch=${BRANCH}&per_page=100")
+  mac=$(get_result "AI Video macOS Apple Silicon TEST package" "$translated_commit")
+  win=$(get_result "AI Video Windows x64 build" "$translated_commit")
+  audit=$(get_result "AI Video Vietnamese localization audit" "$translated_commit")
+  check=$(get_result "AI Video Vietnamese rebrand verification" "$translated_commit")
   echo "  macOS=$mac"
   echo "  Windows=$win"
   echo "  Vietnamese audit=$audit"
