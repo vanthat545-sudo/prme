@@ -1,0 +1,82 @@
+name: AI Video - macOS Apple Silicon (test build)
+on:
+  push:
+    branches: [feat/mac-apple-silicon-build]
+  workflow_dispatch:
+
+jobs:
+  build-mac:
+    runs-on: macos-15-arm64
+    timeout-minutes: 90
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract FilmCraft source safely
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s filmcraft-main.zip || { echo "::error::Missing filmcraft-main.zip"; exit 1; }
+          python3 - <<'PY'
+          import zipfile, pathlib, os
+          archive=zipfile.ZipFile("filmcraft-main.zip")
+          target=pathlib.Path("source")
+          target.mkdir(exist_ok=True)
+          for info in archive.infolist():
+              p=pathlib.PurePosixPath(info.filename)
+              if p.is_absolute() or ".." in p.parts or (info.external_attr >> 16) & 0o170000 == 0o120000:
+                  raise RuntimeError("Unsafe archive member: "+info.filename)
+          archive.extractall(target)
+          PY
+          find source -maxdepth 3 -type f \( -name package.json -o -name Cargo.toml -o -name pubspec.yaml -o -name '*.xcodeproj' -o -name pyproject.toml \) -print | head -80
+      - name: Identify build system and generate diagnostics
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Hardware: $(uname -m)"; sw_vers
+          find source -name package.json -not -path '*/node_modules/*' -print | head -40
+          find source -name electron-builder.yml -o -name electron-builder.yaml -o -name tauri.conf.json -o -name pubspec.yaml -o -name Cargo.toml | head -60
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build Mac package if supported by source configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          manifest="$(find source -name package.json -not -path '*/node_modules/*' -print -quit)"
+          if [ -z "$manifest" ]; then
+            echo "::error::No package.json found. Framework-specific packaging must be configured after source inspection."
+            exit 1
+          fi
+          cd "$(dirname "$manifest")"
+          node -e 'const p=require("./package.json"); console.log(JSON.stringify({name:p.name,scripts:p.scripts,build:p.build},null,2))'
+          if [ -f package-lock.json ]; then npm ci; elif [ -f npm-shrinkwrap.json ]; then npm ci; else npm install --no-audit --no-fund; fi
+          node - <<'JS'
+          const p=require('./package.json');
+          const s=p.scripts||{};
+          if (!s['dist:mac'] && !s['build:mac'] && !s['electron:build'] && !s['tauri:build']) {
+            console.error('Missing mac packaging script (dist:mac, build:mac, electron:build, tauri:build).');
+            process.exit(2);
+          }
+          JS
+          if npm run | grep -q 'dist:mac'; then npm run dist:mac;
+          elif npm run | grep -q 'build:mac'; then npm run build:mac;
+          elif npm run | grep -q 'electron:build'; then npm run electron:build -- --mac;
+          else npm run tauri:build; fi
+      - name: Locate build output
+        if: always()
+        shell: bash
+        run: |
+          find source -type f \( -name '*.dmg' -o -name '*.pkg' -o -name '*.zip' \) -not -path '*/node_modules/*' -print | head -50
+          find source -type d -name '*.app' -not -path '*/node_modules/*' -print | head -50
+      - name: Upload Mac artifacts if produced
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: AI-Video-macOS-Apple-Silicon-test
+          path: |
+            source/**/*.dmg
+            source/**/*.pkg
+            source/**/*.app
+          if-no-files-found: error
+          retention-days: 7
