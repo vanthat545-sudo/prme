@@ -1,0 +1,63 @@
+name: AI Video Mac M1 build
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/ai-video-mac.yml', 'filmcraft-main.zip']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mac-arm64:
+    runs-on: macos-15-arm64
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract and inspect FilmCraft
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s filmcraft-main.zip
+          mkdir -p extracted
+          python3 - <<'PY'
+          import zipfile,pathlib
+          with zipfile.ZipFile('filmcraft-main.zip') as z:
+            for entry in z.infolist():
+              path=pathlib.PurePosixPath(entry.filename)
+              mode=(entry.external_attr >> 16) & 0o170000
+              if path.is_absolute() or '..' in path.parts or mode==0o120000:
+                raise ValueError('Unsafe ZIP entry: '+entry.filename)
+            z.extractall('extracted')
+          PY
+          echo '=== Build manifests ==='
+          find extracted -type f \( -name package.json -o -name Cargo.toml -o -name pubspec.yaml -o -name pyproject.toml \) -not -path '*/node_modules/*' | head -100
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build Electron project if supported
+        shell: bash
+        run: |
+          set -euo pipefail
+          f="$(find extracted -type f -name package.json -not -path '*/node_modules/*' -print -quit)"
+          if [ -z "$f" ]; then echo "::error::Cannot infer packaging command (no package.json); inspect logs for framework"; exit 1; fi
+          cd "$(dirname "$f")"
+          node -e 'console.log(JSON.stringify(require("./package.json").scripts||{},null,2))'
+          if [ -f package-lock.json ]; then npm ci; else npm install --no-audit --no-fund; fi
+          if node -e 'const p=require("./package.json");process.exit(p.scripts?.["dist:mac"]?0:1)'; then npm run dist:mac
+          elif node -e 'const p=require("./package.json");process.exit(p.scripts?.["build:mac"]?0:1)'; then npm run build:mac
+          else echo "::error::No known macOS packaging script; cannot claim executable app"; exit 1
+          fi
+      - name: Package valid app bundles
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p output
+          app="$(find extracted -type d -name '*.app' -not -path '*/node_modules/*' -print -quit)"
+          if [ -n "$app" ]; then ditto -c -k --sequesterRsrc --keepParent "$app" output/AI-Video-Mac-M1.zip; fi
+          dmg="$(find extracted -type f -name '*.dmg' -not -path '*/node_modules/*' -print -quit)"
+          if [ -n "$dmg" ]; then cp "$dmg" output/; fi
+          test -n "$(find output -type f -print -quit)" || { echo "::error::No .app or .dmg generated"; exit 1; }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AI-Video-Mac-M1
+          path: output/*
+          if-no-files-found: error
