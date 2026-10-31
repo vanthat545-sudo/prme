@@ -1,0 +1,86 @@
+name: AI Video Windows x64 build
+on:
+  push:
+    branches: [feat/ai-video-vietnamese]
+    paths:
+      - .github/workflows/ai-video-windows.yml
+      - tools/rebrand_ai_video.py
+      - branding/**
+      - translations/**
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  windows-x64:
+    runs-on: windows-2025
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+      - name: Obtain AI Video source with branding and Vietnamese interface
+        uses: actions/download-artifact@v4
+        with:
+          name: AI-Video-Vietnamese-Source-and-Branding-TEST
+          run-id: 41064980183
+          github-token: ${{ github.token }}
+          path: source-zip
+      - name: Unpack source
+        shell: pwsh
+        run: |
+          Expand-Archive -LiteralPath 'source-zip/AI-Video-v0.13.0-Vietnamese-Source.zip' -DestinationPath 'work' -Force
+          if (!(Test-Path 'work/filmcraft-main/Cargo.toml')) { throw 'Cargo.toml missing' }
+          if (Test-Path 'translations/vi.tsv') {
+            Copy-Item -LiteralPath 'translations/vi.tsv' -Destination 'work/filmcraft-main/crates/ui-egui/src/i18n/vi.tsv' -Force
+            Write-Host 'Using latest Vietnamese catalog from feature branch'
+          }
+          Get-ChildItem work/filmcraft-main/apps/filmcraft | Select-Object Name
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.95.0'
+          targets: x86_64-pc-windows-msvc
+      - name: Compile Windows 64-bit release with embedded AI Video icon
+        shell: pwsh
+        working-directory: work/filmcraft-main
+        run: |
+          cargo build --locked --release -p filmcraft
+      - name: Check Windows executable PE metadata
+        shell: pwsh
+        working-directory: work/filmcraft-main
+        run: |
+          $exe = "target/release/filmcraft.exe"
+          if (!(Test-Path $exe)) { throw "Missing Windows executable" }
+          $info = (Get-Item $exe).VersionInfo
+          Write-Host "ProductName: $($info.ProductName)"
+          Write-Host "FileDescription: $($info.FileDescription)"
+          Write-Host "FileVersion: $($info.FileVersion)"
+          if ($info.ProductName -ne "AI Video") { throw "Incorrect Windows executable ProductName" }
+          if ($info.FileDescription -notlike "AI Video*") { throw "Incorrect Windows executable description" }
+          # GUI-subsystem executable routes --help/--version to a dialog and does not
+          # reliably set PowerShell LASTEXITCODE on a headless runner. Avoid a false failure.
+      - name: Assemble AI Video Windows portable TEST
+        shell: pwsh
+        working-directory: work/filmcraft-main
+        run: |
+          $out = "../../release/AI Video Windows x64 TEST"
+          New-Item -ItemType Directory -Force -Path $out | Out-Null
+          Copy-Item "target/release/filmcraft.exe" "$out/AI Video.exe"
+          Copy-Item "LICENSE-MIT" "$out/LICENSE-MIT.txt"
+          Copy-Item "LICENSE-APACHE" "$out/LICENSE-APACHE.txt"
+          Copy-Item "NOTICE" "$out/NOTICE.txt"
+          @'
+          AI Video — Windows x64 TEST
+          Version: FilmCraft engine 0.13.0, AI Video UI.
+          Portable executable: AI Video.exe
+          Import/export, effects, captions and other functions need manual verification.
+          Vietnamese translation currently incomplete or machine-generated; check REPORT.json.
+          This is an unsigned TEST build, not a final production release.
+          Original project extension .fcproj and internal code identifiers are preserved.
+          '@ | Set-Content -LiteralPath "$out/INSTALL.txt" -Encoding utf8
+          $versionInfo = (Get-Item "$out/AI Video.exe").VersionInfo
+          if ($versionInfo.ProductName -ne "AI Video") { throw "Renamed app metadata check failed" }
+          Compress-Archive -LiteralPath "$out" -DestinationPath "../../release/AI-Video-Windows-x64-TEST.zip" -Force
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AI-Video-Windows-x64-TEST
+          path: release/AI-Video-Windows-x64-TEST.zip
+          retention-days: 14

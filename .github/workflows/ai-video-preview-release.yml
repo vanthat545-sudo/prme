@@ -1,0 +1,25 @@
+name: AI Video gated TEST preview release
+on:
+  push:
+    branches: [feat/ai-video-vietnamese]
+    paths:
+      - .github/workflows/ai-video-preview-release.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: ai-video-preview-publish
+  cancel-in-progress: false
+jobs:
+  publish-preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Await complete Vietnamese catalog, macOS, Windows and Rust validation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash tools/prepare_preview_release.sh

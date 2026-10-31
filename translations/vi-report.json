@@ -1,0 +1,10 @@
+{
+  "model": "Helsinki-NLP/opus-mt-en-vi",
+  "total": 3607,
+  "curated": 190,
+  "machine_translated": 3416,
+  "remaining_uncertain": 1,
+  "coverage_keys": 3607,
+  "source_sha256": "3a49fa0f7970486e2681d6ff61a0ba0d693073bab2e4b9fe8d832cc3efcdd951",
+  "status": "MACHINE DRAFT — requires Vietnamese proofreading and functional UI verification"
+}

@@ -1,0 +1,67 @@
+name: AI Video macOS Apple Silicon TEST package
+on:
+  push:
+    branches: [feat/ai-video-vietnamese]
+    paths:
+      - .github/workflows/ai-video-macos-dmg.yml
+      - translations/**
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+jobs:
+  macos-m1:
+    runs-on: macos-15
+    timeout-minutes: 110
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: AI-Video-Vietnamese-Source-and-Branding-TEST
+          run-id: 41064980183
+          github-token: ${{ github.token }}
+          path: source-zip
+      - name: Unpack validated AI Video source and latest Vietnamese catalog
+        run: |
+          mkdir -p work
+          ditto -x -k source-zip/AI-Video-v0.13.0-Vietnamese-Source.zip work
+          test -f work/filmcraft-main/Cargo.toml
+          if [ -f translations/vi.tsv ]; then
+            cp translations/vi.tsv work/filmcraft-main/crates/ui-egui/src/i18n/vi.tsv
+            echo "Using current Vietnamese catalog from feature branch"
+          fi
+      - uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: '1.95.0'
+          targets: aarch64-apple-darwin
+      - name: Build and assemble macOS .app plus DMG for Apple Silicon
+        working-directory: work/filmcraft-main
+        env:
+          MACOS_SIGN_IDENTITY: '-'
+        run: |
+          bash packaging/macos/package.sh --arch aarch64
+      - name: Verify packaged app identity and files
+        working-directory: work/filmcraft-main
+        run: |
+          test -d 'dist' || test -d 'build/dist'
+          find . -name 'AI Video.app' -type d -maxdepth 7 -print
+          find . -iname 'AI-Video-*.dmg' -print
+          app="$(find . -name 'AI Video.app' -type d -maxdepth 7 | head -1)"
+          if [ -n "$app" ]; then
+            test "$(defaults read "$(pwd)/$app/Contents/Info" CFBundleDisplayName)" = "AI Video"
+            test -f "$app/Contents/Resources/FilmCraft.icns"
+            codesign --verify --deep --strict "$app"
+          fi
+      - name: Copy Mac TEST distribution to one folder
+        working-directory: work/filmcraft-main
+        run: |
+          mkdir -p ../../release/mac
+          find . -name 'AI-Video-*.dmg' -type f -exec cp {} ../../release/mac/ \;
+          app="$(find . -name 'AI Video.app' -type d -maxdepth 7 | head -1)"
+          if [ -n "$app" ]; then ditto -c -k --keepParent "$app" ../../release/mac/AI-Video-Mac-M1-TEST.app.zip; fi
+          ls -lh ../../release/mac/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AI-Video-macOS-M1-TEST
+          path: release/mac/
+          retention-days: 14

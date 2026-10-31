@@ -1,0 +1,70 @@
+name: AI Video Vietnamese rebrand verification
+on:
+  push:
+    branches: [feat/ai-video-vietnamese]
+    paths:
+      - .github/workflows/ai-video-package.yml
+      - tools/rebrand_ai_video.py
+      - branding/**
+      - translations/**
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: macos-15
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare source, icon, cover and Vietnamese catalog (do not mutate original ZIP)
+        run: |
+          brew install cairo
+          export DYLD_LIBRARY_PATH="$(brew --prefix cairo)/lib:${DYLD_LIBRARY_PATH:-}"
+          export DYLD_FALLBACK_LIBRARY_PATH="$(brew --prefix cairo)/lib:${DYLD_FALLBACK_LIBRARY_PATH:-}"
+          python -m pip install --disable-pip-version-check Pillow==11.3.0 cairosvg==2.8.2
+          python tools/rebrand_ai_video.py
+      - name: Verify bundle metadata and source integrity
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          info=json.loads(pathlib.Path("build/REPORT.json").read_text())
+          assert info["source_engine_files_preserved"]>0
+          assert info["macos_icon_regenerated"] is True
+          assert info["translation_catalog_translated"]>150
+          print("AI Video smoke checks:",info)
+          PY
+          find build -maxdepth 1 -type f -print
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AI-Video-Vietnamese-Source-and-Branding-TEST
+          path: |
+            build/AI-Video-v0.13.0-Vietnamese-Source.zip
+            build/AI-Video-cover.png
+            build/AI-Video-icon.png
+            build/REPORT.json
+          retention-days: 14
+  compile:
+    needs: package
+    runs-on: macos-15
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: AI-Video-Vietnamese-Source-and-Branding-TEST
+          path: compiled
+      - name: Unpack updated source in isolated directory
+        run: |
+          mkdir -p src
+          ditto -x -k compiled/AI-Video-v0.13.0-Vietnamese-Source.zip src
+      - name: Install Rust
+        run: |
+          rustup toolchain install 1.95.0 --profile minimal
+          rustup default 1.95.0
+      - name: Check Rust UI and app without changing engine code
+        run: |
+          cd src/filmcraft-main
+          cargo check --locked -p filmcraft-ui-egui -p filmcraft

@@ -1,0 +1,48 @@
+name: AI Video complete Vietnamese catalog draft
+on:
+  push:
+    branches: [feat/ai-video-vietnamese]
+    paths:
+      - .github/workflows/ai-video-complete-i18n.yml
+      - tools/translate_missing_vi.py
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  translate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    env:
+      HF_HUB_DOWNLOAD_TIMEOUT: '120'
+      OMP_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          name: AI-Video-Vietnamese-Source-and-Branding-TEST
+          run-id: 41064597106
+          github-token: ${{ github.token }}
+          path: pretranslated
+      - name: Install Apache-2.0 English-Vietnamese translation model dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu torch==2.5.1
+          python -m pip install --disable-pip-version-check transformers==4.44.2 sentencepiece==0.2.0 sacremoses==0.1.1
+      - name: Translate missing UI strings while preserving all formatting placeholders
+        run: python tools/translate_missing_vi.py pretranslated/AI-Video-v0.13.0-Vietnamese-Source.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AI-Video-Vietnamese-Complete-Draft
+          path: translations/
+          retention-days: 14
+      - name: Commit translated UI catalog to feature branch (never main)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add translations/vi.tsv translations/vi-report.json
+          git commit -m "i18n: add machine-draft Vietnamese UI catalog; human review required"
+          git pull --rebase origin feat/ai-video-vietnamese
+          git push origin HEAD:feat/ai-video-vietnamese
