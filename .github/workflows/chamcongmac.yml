@@ -1,0 +1,36 @@
+name: Build ChamCongMac for Apple Silicon
+on:
+  push:
+    branches: [chamcongmac-build]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build native macOS app
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist/ChamCongMac.app/Contents/MacOS
+          xcrun swiftc -O -target arm64-apple-macos13.0 -framework SwiftUI -framework AppKit ChamCongApp.swift -o dist/ChamCongMac.app/Contents/MacOS/ChamCongMac
+          cat > dist/ChamCongMac.app/Contents/Info.plist <<'PLIST'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+          <key>CFBundleExecutable</key><string>ChamCongMac</string>
+          <key>CFBundleIdentifier</key><string>vn.chamcong.mac</string>
+          <key>CFBundleName</key><string>ChamCongMac</string>
+          <key>CFBundleDisplayName</key><string>Chấm Công Mac</string>
+          <key>CFBundlePackageType</key><string>APPL</string>
+          <key>LSMinimumSystemVersion</key><string>13.0</string>
+          </dict></plist>
+          PLIST
+          codesign --force --sign - dist/ChamCongMac.app
+          ditto -c -k --keepParent dist/ChamCongMac.app dist/ChamCongMac-AppleSilicon.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ChamCongMac-AppleSilicon
+          path: dist/ChamCongMac-AppleSilicon.zip
