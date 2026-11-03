@@ -2,6 +2,8 @@ name: Build ChamCongMac for Apple Silicon
 on:
   push:
     branches: [chamcongmac-build]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
