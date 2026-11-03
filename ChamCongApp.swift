@@ -87,7 +87,7 @@ struct ContentView: View {
                             Text(day.formatted(.dateTime.day())).font(.headline)
                             Text(s.off ? "Nghỉ" : String(format:"%.1f giờ",model.hours(s)))
                                 .font(.caption)
-                                .foregroundStyle(s.off ? .red : .secondary)
+                                .foregroundStyle(s.off ? Color.red : Color.secondary)
                             Spacer(minLength:0)
                         }
                         .frame(maxWidth:.infinity,alignment:.leading).frame(height:64)
